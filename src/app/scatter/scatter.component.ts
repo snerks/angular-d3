@@ -71,5 +71,4 @@ export class ScatterComponent implements OnInit {
       .attr('x', d => x(d.Released))
       .attr('y', d => y(d.Stars));
   }
-
 }
